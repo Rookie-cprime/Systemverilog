@@ -1,0 +1,42 @@
+m255
+K3
+13
+cModel Technology
+Z0 dB:\Github\1th_FPGAtest\LL my version\sim\sim6
+T_opt
+V41elR`jaK8CRNAna?7cOc3
+Z1 04 6 4 work test_1 fast 0
+=1-b00cd15131ba-5f7b1f4b-6e-3aa0
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+Z2 OL;O;10.1c;51
+Z3 dB:\Github\1th_FPGAtest\LL my version\sim\sim6
+T_opt1
+Vf1<Nn>B9=Al6mOGWD?PD<0
+R1
+=1-b00cd15131ba-5f7b1f7d-3e-3a6c
+o-quiet -auto_acc_if_foreign -work work
+n@_opt1
+R2
+R3
+vtest_1
+DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Ve1f5^Z_3QBOL_0ZoVX_OP0
+r1
+!s85 0
+31
+IdIgWERSmMKkE[HoWVD[D^1
+!s105 class_sv_unit
+S1
+dB:\Github\Systemverilog\class transform
+w1601904923
+8B:/Github/Systemverilog/class transform/class.sv
+FB:/Github/Systemverilog/class transform/class.sv
+L0 1
+Z4 OL;L;10.1c;51
+!s90 -reportprogress|300|-work|work|-vopt|-sv|B:/Github/Systemverilog/class transform/class.sv|
+o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s100 >IPmS1F^4^UZnL5O4=W1g2
+!s108 1601904957.835000
+!s107 B:/Github/Systemverilog/class transform/class.sv|

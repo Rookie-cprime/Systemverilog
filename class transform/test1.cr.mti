@@ -1,0 +1,8 @@
+{B:/Github/Systemverilog/class transform/class.sv} {1 {vlog -work work -vopt -sv {B:/Github/Systemverilog/class transform/class.sv}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module test_1
+
+Top level modules:
+	test_1
+
+} {} {}}
