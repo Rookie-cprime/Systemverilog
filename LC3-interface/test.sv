@@ -1,8 +1,21 @@
+typedef enum{CNTRL_UPDATE_PC = 0,
+			 CNTRL_FETCH,
+			 CNTRL_DECODE,
+			 CNTRL_EXECUTE,
+			 CNTRL_UPDATE_REGF,
+			 CNTRL_COMPUTE_PC,
+			 CNTRL_COMPUTE_MEM,
+			 CNTRL_READ_MEM,
+			 CNTRL_IND_ADDR_RD,
+			 CNTRL_WRITE_MEM
+			} cntrl_e;
+
+
+
 program automatic test(fetch_ifc.TEST if_t,
 						fetch_ifc.MONITOR if_m);
 	initial begin
 			cntrl_e cntrl;
-			
 			$timeformat (-9,0,"ns",5);
 			$monitor("%t:pc = %h npc = %h rd = %b state = %s\n",$realtime,if_m.cbm.pc,if_m.cbm.npc,
 					if_m.cbm.rd,if_m.cbm.state.name);
@@ -15,7 +28,8 @@ program automatic test(fetch_ifc.TEST if_t,
 			repeat(2) @if_t.cb;
 			pc_post_reset:assert (if_t.cb.pc == 16'h3000);
 			
-			##1 if_t.cb.eset <= 0;//好好观察
+			@if_t.cb;
+			if_t.rst <= 0;//好好观察
 			
 			@(if_t.cb);
 			$display("\n%t: Test loading of target address",$realtime);
@@ -47,7 +61,7 @@ program automatic test(fetch_ifc.TEST if_t,
 			$display("%t : Tristate on PC output",$realtime);
 			if_t.cb.state <= CNTRL_IND_ADDR_RD;
 			@(if_t.cb);
-			pc_z_read_mem: assert (if_t.cb.pc === 16'hzzzz)	//三个等号，讲究
+			pc_z_read_mem: assert (if_t.cb.pc === 16'hzzzz);	//三个等号，讲究
 			
 			
 	end

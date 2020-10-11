@@ -1,0 +1,130 @@
+m255
+K3
+13
+cModel Technology
+Z0 dB:\Github\Systemverilog\class pack
+vfetch
+Z1 IX1fV`kDAOX2[8G5l[<6_k0
+Z2 V^7OJlhSiDe5Oac7I=38?01
+Z3 dB:\Github\Systemverilog\LC3-interface
+Z4 w1602404991
+Z5 8B:/Github/Systemverilog/LC3-interface/fetch.v
+Z6 FB:/Github/Systemverilog/LC3-interface/fetch.v
+L0 1
+Z7 OL;L;10.1c;51
+r1
+31
+Z8 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z9 !s100 RFJ_h>QDe2LXSeHkI`OB<1
+Z10 !s108 1602404997.832000
+Z11 !s107 B:/Github/Systemverilog/LC3-interface/fetch.v|
+Z12 !s90 -reportprogress|300|-work|work|-vopt|B:/Github/Systemverilog/LC3-interface/fetch.v|
+!i10b 1
+!s85 0
+Yfetch_ifc
+Z13 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z14 DXx4 work 17 fetch_ifc_sv_unit 0 22 0o[eMHFf7TgEHYN^jgKi_0
+Z15 Vz1FRgn=mg?zU]9NK@cL1^0
+r1
+31
+Z16 I8;1PN[kVK?^`1D;lP;1_F1
+S1
+R3
+Z17 w1602405150
+Z18 8B:/Github/Systemverilog/LC3-interface/fetch_ifc.sv
+Z19 FB:/Github/Systemverilog/LC3-interface/fetch_ifc.sv
+L0 14
+R7
+Z20 !s108 1602405160.973000
+Z21 !s107 B:/Github/Systemverilog/LC3-interface/fetch_ifc.sv|
+Z22 !s90 -reportprogress|300|-work|work|-vopt|-sv|B:/Github/Systemverilog/LC3-interface/fetch_ifc.sv|
+Z23 o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z24 !s100 <I23YiK^66L]VGdcKi20S0
+Z25 !s105 fetch_ifc_sv_unit
+!s85 0
+!i10b 1
+Xfetch_ifc_sv_unit
+R13
+Z26 V0o[eMHFf7TgEHYN^jgKi_0
+r1
+31
+Z27 I0o[eMHFf7TgEHYN^jgKi_0
+S1
+R3
+R17
+R18
+R19
+L0 1
+R7
+R20
+R21
+R22
+R23
+Z28 !s100 CM93nEa[hkEbWgMn;LQD42
+!s85 0
+!i10b 1
+!i103 1
+4test
+R13
+Z29 DXx4 work 12 test_sv_unit 0 22 ?9^jTaSgaelfSkFL6_iA[3
+Z30 Vk<3<[f=78GX=_HO53D;7>3
+r1
+31
+Z31 I=BiPVXQ2SdzoP^J5=2O>73
+Z32 !s105 test_sv_unit
+S1
+R3
+Z33 w1602405739
+Z34 8B:/Github/Systemverilog/LC3-interface/test.sv
+Z35 FB:/Github/Systemverilog/LC3-interface/test.sv
+L0 15
+R7
+Z36 !s108 1602405747.650000
+Z37 !s107 B:/Github/Systemverilog/LC3-interface/test.sv|
+Z38 !s90 -reportprogress|300|-work|work|-vopt|-sv|B:/Github/Systemverilog/LC3-interface/test.sv|
+R23
+!s85 0
+!i10b 1
+Z39 !s100 ekaXg]J]Q8nBBH;Zf?f]P1
+Xtest_sv_unit
+R13
+Z40 V?9^jTaSgaelfSkFL6_iA[3
+r1
+31
+Z41 !s100 _TheRb72AjJH6ASY@eeN20
+Z42 I?9^jTaSgaelfSkFL6_iA[3
+S1
+R3
+R33
+R34
+R35
+L0 1
+R7
+R36
+R37
+R38
+R23
+!s85 0
+!i10b 1
+!i103 1
+vtop
+R13
+!i10b 1
+!s100 n@KI_`_[fzW>zN>LQTizE2
+I8OWUz4XPKQ;kZDXB>K]Tk2
+Ve:gFW1CKLAXc^T:7k2HoD1
+!s105 top_sv_unit
+S1
+R3
+w1602406117
+8B:/Github/Systemverilog/LC3-interface/top.sv
+FB:/Github/Systemverilog/LC3-interface/top.sv
+L0 4
+R7
+r1
+!s85 0
+31
+!s108 1602406200.508000
+!s107 B:/Github/Systemverilog/LC3-interface/top.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|B:/Github/Systemverilog/LC3-interface/top.sv|
+R23

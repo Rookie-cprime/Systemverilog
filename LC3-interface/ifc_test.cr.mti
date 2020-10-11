@@ -1,0 +1,32 @@
+B:/Github/Systemverilog/LC3-interface/top.sv {1 {vlog -work work -vopt -sv B:/Github/Systemverilog/LC3-interface/top.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} B:/Github/Systemverilog/LC3-interface/fetch_ifc.sv {1 {vlog -work work -vopt -sv B:/Github/Systemverilog/LC3-interface/fetch_ifc.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling interface fetch_ifc
+-- Compiling package fetch_ifc_sv_unit
+-- Compiling interface fetch_ifc
+
+Top level modules:
+	--none--
+
+} {} {}} B:/Github/Systemverilog/LC3-interface/fetch.v {1 {vlog -work work -vopt B:/Github/Systemverilog/LC3-interface/fetch.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module fetch
+
+Top level modules:
+	fetch
+
+} {} {}} B:/Github/Systemverilog/LC3-interface/test.sv {1 {vlog -work work -vopt -sv B:/Github/Systemverilog/LC3-interface/test.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package test_sv_unit
+-- Compiling program test
+
+Top level modules:
+	test
+
+} {} {}}

@@ -1,3 +1,16 @@
+typedef enum{CNTRL_UPDATE_PC = 0,
+			 CNTRL_FETCH,
+			 CNTRL_DECODE,
+			 CNTRL_EXECUTE,
+			 CNTRL_UPDATE_REGF,
+			 CNTRL_COMPUTE_PC,
+			 CNTRL_COMPUTE_MEM,
+			 CNTRL_READ_MEM,
+			 CNTRL_IND_ADDR_RD,
+			 CNTRL_WRITE_MEM
+			} cntrl_e;
+
+
 interface fetch_ifc(input bit clk);
 logic rst,br_taken,rd;
 logic [15:0] taddr;

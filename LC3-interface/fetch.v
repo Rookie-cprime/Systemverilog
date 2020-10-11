@@ -1,4 +1,4 @@
-module fetch(clk,rst,state,pc,npc,rd,taddr,br_taker);
+module fetch(clk,rst,state,pc,npc,rd,taddr,br_taken);
 input clk,rst,br_taken;
 input [15:0] taddr;
 input [3:0] state;
